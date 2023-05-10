@@ -1,0 +1,216 @@
+ body {  /*CORPO*/
+    margin: 0 auto;
+    width: 90%;
+    font-family: Verdana, " Lucida Sans unicode", sans-serif;
+    background-color: rgb(24, 179, 179);
+    margin-block: 30px;
+}
+
+p { /*PÁRAGRAFOS*/
+    font-size: 30px;
+    color: white;
+    margin: 30px;
+    
+    
+}
+.sombra { /*IMAGEM "LOGO"*/
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px rgb(255, 252, 252);
+}
+header img { /*POSIÇÃO "LOGO"*/
+    display: block;
+    width: 300px;
+    /*margin-left: 33.3*/ 
+}
+header {
+    position: relative;
+}
+
+footer { /*@TATOOBLACK*/
+    font-style: italic;
+    color:white;
+    text-align: center;
+  
+
+} /* INICIO "REDES SOCIAIS" */
+.social {
+    position: relative;
+    float: right;
+    list-style: none;
+    top: 3px;
+}
+.social li {
+    float: left;
+    margin-left: 10px;
+
+}
+.social a {
+    height: 30px;
+    width: 32px;
+    display: block;
+    text-indent: -99999px;
+
+}
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+    box-shadow: 2px 2px 2px white;
+}
+.social a[href*="instagram.com"] {
+    background-image: url(../img/instagram.png);
+    box-shadow: 2px 2px 2px black;
+}
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+
+}
+/* FIM "REDES SOCIAIS" */
+
+
+.tato_real, figcaption { /*TATOO REALISTA, TEXTO EMBAIXO DA IMAGEM*/
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(12, 10, 10);
+}
+
+.tatuadores {
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+}
+
+.title { /*TITULO*/
+    font-size: 45px; 
+    font-style: normal;
+    text-align: center;
+}
+
+.lista, .lista2 { /*LISTA TATUADORES, LISTA CARACTERISTICAS*/
+font-style: italic;
+font-size: 20px;
+font-family: 'Verdana'}
+
+.prt { /* "SUBTITULO" CARACTERISTICAS DAS TATUAGENS, PRINCIPAIS TATUADORES*/
+  font-size: 30px;
+  font-family: Verdana;
+}
+.crt {
+    font-size: 35px;
+    text-align: center;
+}
+
+.estilo_tb,.estilo_tdm{ /* ESTILO "mark" (TATUADORES, TATOOBLACK) */
+    background-color: black;
+    color: white;
+}
+
+.estilo_trc, .estilo_crt, .estilo_prt, .estilo_st, .estilo_q, .estilo_tato, .estilo_t { /* "mark" ( TODAS QUE CONTÉM FUNDO BRANCO)*/
+    background-color: white;
+}
+.corpo {
+    color: white;
+    background-color: rgb(105, 128, 128);
+    box-shadow: 3px 3px 3px white;
+    border-radius: 1%;
+}
+.tdm {
+    text-align: center;
+}
+figure { 
+    padding: 15px;
+    margin: 30px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 50px;
+}
+figcaption {
+    color:white;
+    margin-top: 20px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.figtato {
+    background-color: black;
+    border: 2px solid white;
+}
+.realista { /* FOTO TATUAGEM REALISTA*/
+    width: 35%;
+}
+/* MENU ORIZONTAL */
+.menu_opcoes { 
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    }
+
+.menu_opcoes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18x;
+    overflow: hidden;
+    background-color: darkgray;
+    border-radius:15px;
+    margin-top: 100px;
+}
+
+.menu_opcoes ul li {
+    display: inline;
+    margin-left: 0px;
+    border-right: 8px solid black;
+    font-style: italic;
+
+}
+.menu_opcoes a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.menu_opcoes li:last-child {
+    border-right: none;
+}
+.menu_opcoes li a:hover {
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+/* FIM MENU */
+
+/* INICIO "MECANISMO DE BUSCA */
+.busca {
+   position: relative;
+   float: right; 
+   color: white;
+   background-color: black;
+   margin: 20px;
+   padding: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+   border-radius: 10px;
+   box-shadow: 3px 3px 3px black;
+   margin-right: 10px;
+   width: 250px;
+   margin-top: -290px;
+}
+.busca input[type=search] {
+    width: 210px;
+    border-radius: 8px;
+
+}
+.busca button {
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 30px;
+    height: 20px;
+    text-indent: -9999px;
+    background-color: black;
+}
+
+/* FIM "MECANISMO" */
+.texto {
+    color: red;
+}
