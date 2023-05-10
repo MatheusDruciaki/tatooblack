@@ -1,2 +1,3 @@
-# tatooblack
-Projeto em andamento/ site de tatuagem 
+# tatoo black
+Projeto em andamento/ site de tatuagem / 
+aprendendo html e css basicos. 
